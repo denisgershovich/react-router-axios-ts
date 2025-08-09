@@ -14,11 +14,11 @@ This setup provides a solid foundation for building robust, scalable React appli
 
 ## Configuration
 
-You need to configure the base URL for your API in a config file, for example:
+Configure the base URL in the config file, for example:
 
 ```js
 const config = {
   placeholderApiUrl: "https://api.example.com",
 };
 
-export default config;
+
