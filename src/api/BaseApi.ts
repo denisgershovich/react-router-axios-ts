@@ -22,8 +22,8 @@ type InterceptorHandlers<T> = {
 export default class BaseApi<T> {
   protected api: AxiosInstance;
 
-  constructor(baseUrl: string, slug = "") {
-    this.api = axiosProvider(`${baseUrl}${slug}`);
+  constructor(baseUrl: string, endpoint = "") {
+    this.api = axiosProvider(`${baseUrl}${endpoint}`);
     this.setInterceptors({
       beforeRequest: this._beforeRequest.bind(this),
       requestError: this._requestError.bind(this),
