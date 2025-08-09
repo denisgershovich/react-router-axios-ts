@@ -18,7 +18,7 @@ Configure the base URL in the config file, for example:
 
 ```js
 const config = {
-  placeholderApiUrl: "https://api.example.com",
+  apiBaseUrl: "https://api.example.com",
 };
 
 
