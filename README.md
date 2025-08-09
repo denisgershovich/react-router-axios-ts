@@ -10,3 +10,15 @@ Key features include:
 - Focus on clean separation of concerns, strong type safety, and maintainability.
 
 This setup provides a solid foundation for building robust, scalable React applications with clear API handling patterns.
+
+
+## Configuration
+
+You need to configure the base URL for your API in a config file, for example:
+
+```js
+const config = {
+  placeholderApiUrl: "https://api.example.com",
+};
+
+export default config;
