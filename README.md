@@ -1,6 +1,6 @@
 # Project Overview
 
-This project demonstrates a scalable API service architecture using **Axios** and **React Router v6** with **TypeScript**.
+API service architecture using **Axios** and **React Router**.
 
 Key features include:
 
